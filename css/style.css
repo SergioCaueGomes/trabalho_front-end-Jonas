@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+body{
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.container-pai{
+    width: 100%;
+    height: auto;
+}
+.top1 div .top_menu{
+    margin: 0px;
+
+}
+.top{
+    display:flex;
+}
+.frete{
+    margin-left: 15px;
+    padding: 5px;
+    font-size:12px;
+}
+.top_menu{
+    margin-left: 35px;
+    padding: 5px;
+    margin-left: 15px;
+    font-size: 12px;
+}
+.enter::before{
+    position: absolute;
+    content: url(../image/icon/surf.png);
+    margin-left: -18px;
+}
+.top_menu a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+.logo img{
+    width: 65px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.menu_center{
+    width: 100%;
+    height: 40px;
+    background-color:white;   
+}
+.navbar{
+    width: 100%;
+    background-color: white;
+    margin-left: 0px;
+}
+.navbar ul{
+    background-color: white;
+    margin: 0px;
+}
+.navbar ul li{
+    margin: 0px;
+    background-color: white;
+    font-size:14px;
+}
+.menu_center a{
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    background-color: white;
+}
+.busca input{
+    margin-top: 15px;
+    margin-left: 200px;
+    width: 120px;
+    height: 32px;
+    height: 30px;
+    border-radius: 2px;
+    padding: 0px 15px 5px 30px;
+    border: 1px solid;
+}
+.sacola::after{
+    content: url(../image/icon/sacola.png);
+    
+}
+.btn{
+    margin-left: 15px;
+    margin-top: 5px;
+    padding: none;
+    width:32px
+}
+.slide1{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    margin-top: 0px;
+    justify-content: center;
+}
+.slide1 h5{
+    font-size: 14px;
+    margin-right: 7px;
+    
+}
+.slide1 p{
+    
+    font-size: 12px;
+}
+
+
+.menu{
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.container_8 h2{
+    font-size: 20px;
+}
+
+
+
+/* .slide2{
+    width: 100%;
+    height: auto;
+    margin: 1% 10% 1% 0;
+
+} */
+.card-img-top{
+    width: 50%;
+    height: auto;
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+    height : auto;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+.footer h5{
+    margin-top: 70px;
+}
+.footer h6{
+    margin-top: 20px;
+}
+.footer ul li{
+    list-style: none;
+    margin-left: 0px;
+    padding-bottom: 5px;
+    font-size: 11px;
+}
+.footer ul li input{
+    border: 0.5px solid white;
+    border-radius: 1px;
+    background-color: black;
+    margin: 30px 10px 40px 10px;
+    padding: 5px;
+    width: 200px;
+    height: 35px;
+}
+.footer ul li img{
+    width: 32px;
+    height: auto;
+    margin: 10px 0 0 10px;
+}
+
+
+.footer2{
+    display: flex;
+    width: 100%;
+    height : auto;
+    justify-content: space-between;
+    background-color: black;
+    color: rgb(128, 126, 126);
+}
+.footer2 ul li{
+    list-style: none;
+    margin-left: 0px;
+    padding-bottom: 5px;
+    font-size: 10px;
+}
+
+.footer3{
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    
+    
+}
+
+.footer3 h6{
+    margin-left: 50px;
+    color: antiquewhite;
+    margin-top: 100px;
+    font-size: 12px;
+}
+.footer3 img{
+    width: 45px;
+    height: auto;
+    margin: 90px 0px 0px 200px;
+}
+.footer4{
+    background-color: black;
+}
+
+.footer4 img{
+    width: 20px;
+    margin: 100px 0px 0px 10px;
+}
+.footer4 h6{
+    margin-left: 45px;
+    margin-top: -15px;
+    color: white;
+    font-size:11px;
+}
+.footer3{
+    width:100%;
+}
+button{
+    background-color: blue;
+}
+
+/* @media (max-width: 768px) {
+    
+    
+} */
